@@ -45,7 +45,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: purple;
 }
 
 li.dropdown {
@@ -81,35 +81,44 @@ footer{
   padding: 20px;
   text-align: center;
   color: white;
-
+  align-items: flex-end;
 }
 
-main{
-  background: url(../Images/Fondo\ \(Hi-Res\).jfif);
+.banner-img{
+  background-image: url(https://baderstudios.de/sites/default/files/_W1_9902.JPG);
+  background-size: auto;
   background-repeat: no-repeat;
-  background-size: cover;
-  filter: blur(15px);
+  background-position: center;
+  height: 700px;
+  width: 1480px;
+  filter: blur(5px);
 }
 
-#fondo{
-  background-repeat: no-repeat;
-  
-  background-size: contain;
-  background-position: center center;
-  display: flex;
-}
-
-#content{
-  filter: blur(0px);
-  padding: 50px;
-}
-
-#hires{
+.banner-text{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 45%;
+  padding: 40px 0;
   text-align: center;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgba(83, 137, 182, 0.425);
+  color: black;
+  font-weight: bold;
+  border: 10px inset #fff;
 }
+
+.banner-text p{
+  padding: 0.8%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
 
 #cover {
   height: 100px;
   width: 100px;
-  align: right;
 }

@@ -26,28 +26,17 @@
   </header>
   <ul>
     <li class="dropdown">
-      <a href="#" class="dropbtn">Cómo escucharlo</a>
-      <div class="dropdown-content">
-        <a href="#">Archivo</a>
-        <a href="#">Audífonos</a>
-        <a href="#">Reproductor</a>
+      <a href="./Pages/Como escucharlo.html" class="dropbtn">Cómo escucharlo</a>
     <li class="dropdown">
-      <a href="#" class="dropbtn">Dónde escucharlo</a>
+      <a class="dropbtn">Dónde escucharlo</a>
       <div class="dropdown-content">
-        <a href="#">Deezer</a>
-        <a href="#">Tidal</a>
-        <a href="#">Qoobuz</a>
-        <a href="#">Mora</a>
-        <a href="#">Local</a>
-        <a href="#">CD/Vinyl</a>
+        <a onclick="showAlert()" href="#" href="#">Deezer</a>
+        <a onclick="showAlert()" href="#" href="#">Tidal</a>
+        <a onclick="showAlert()" href="#" href="#">Qoobuz</a>
+        <a onclick="showAlert()" href="#" href="#">Mora</a>
     <li class="dropdown">
       <a href="./Pages/Hi - Res.html" class="dropbtn">Hi -Res</a>
-      <div class="dropdown-content">
-        <a href="#">Flac</a>
-        <a href="#">Wav</a>
-        <a href="#">Flac vs Wav</a>
-      </div>
-    <li><a href="#">Acerca de</a></li>
+    <li><a  onclick="showAlert()" href="#" >Acerca de</a></li>
     <li><a href="./index.html">Inicio</a></li>
     </li>
   </ul>
@@ -87,6 +76,12 @@
       <script>document.write(new Date().getFullYear())</script>, FutureEd
     </p>
   </footer>
-</body>
 
+
+  <script>
+    const showAlert = () =>{
+      alert ("Página sin fines de lucro creada como proyecto web para el curso de Principios de programación web")
+    }
+  </script>
+</body>
 </html>

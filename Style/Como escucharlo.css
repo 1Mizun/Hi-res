@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+  display: block;
+  }
+  
+  header{
+  display: flex;
+  background-color: #333;
+  }
+  
+  #Vinyl {
+  width: 55px;
+  height: 40px;
+  padding-top: 5px;
+  }
+  
+  h1{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px ;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: purple;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .product{
+    background-color: #454343;
+    height: 172vh;
+  }
+
+  .product .main-img img{
+    max-width: 500px;
+    height: 250px;
+    margin: auto;
+    display: block;
+  }
+
+  .product .thumb-img {
+    text-align: center;
+  }
+
+  .product .thumb-img .box{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(15, 15, 66);
+    margin: 2px
+  }
+
+
+
+  .product .thumb-img img{
+    max-width: 100%;
+    max-height: 100%;
+  } 
+
+  .product .info {
+    padding: 50px 50px 50px 50px ;
+  }
+
+  .product .info p {
+    text-align: justify;
+    font-family: 'Kaisei HarunoUmi', serif;
+    background-color: rgb(99, 92, 92);
+    padding: 5px 5px 5px 5px;
+  }
+
+  .musica{
+    display: flex;
+    padding-left: 50vh;
+  }
+
+  .musica #flac{
+    margin-left: 40px;
+
+  }
+  .musica #spotify {
+    margin-left: 50px; 
+  }
+
+  footer{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
