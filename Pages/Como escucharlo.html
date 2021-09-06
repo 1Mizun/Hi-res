@@ -1,115 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>MUSIQALY</title>
-    <link rel="stylesheet" href="../Style/Como escucharlo.css">
-    <link rel="shortcut icon" href="../Images/1627442868.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>MUSIQALY</title>
+  <link rel="stylesheet" href="../Style/Como escucharlo.css">
+  <link rel="shortcut icon" href="../Images/1627442868.ico" type="image/x-icon">
 </head>
+
 <body>
-    <header>
-        <div>
-          <img id="Vinyl" src="../Images/Logo.png" alt="Logo">
-        </div>
-        <h1>MUSIQALY</h1>
-      </header>
-        <ul>
-            <li class="dropdown">
-              <a href="#" class="dropbtn">Cómo escucharlo</a>
-            <li class="dropdown">
-              <a href="#" class="dropbtn">Dónde escucharlo</a>
-              <div class="dropdown-content">
-                <a href="https://www.deezer.com/mx/company">Deezer</a>
-                <a href="https://tidal.com/about">Tidal</a>
-                <a href="https://www.qobuz.com/gb-en/discover">Qoobuz</a>
-                <a href="https://mora.jp">Mora</a>
-            <li class="dropdown">
-              <a href="../Pages/Hi - Res.html" class="dropbtn">Hi -Res</a>
-            <li><a onclick="showAlert()" href="#" >Acerca de</a></li>
-            <li><a href="../index.html">Inicio</a></li>
-            </li>
-          </ul>
+  <header>
+    <div>
+      <img id="Vinyl" src="../Images/Logo.png" alt="Logo">
+    </div>
+    <h1>MUSIQALY</h1>
+  </header>
+  <ul>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Cómo escucharlo</a>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Dónde escucharlo</a>
+      <div class="dropdown-content">
+        <a href="https://www.deezer.com/mx/company">Deezer</a>
+        <a href="https://tidal.com/about">Tidal</a>
+        <a href="https://www.qobuz.com/gb-en/discover">Qoobuz</a>
+        <a href="https://mora.jp">Mora</a>
+    <li class="dropdown">
+      <a href="../Pages/Hi - Res.html" class="dropbtn">Hi -Res</a>
+    <li><a onclick="showAlert()" href="#">Acerca de</a></li>
+    <li><a href="../index.html">Inicio</a></li>
+    </li>
+  </ul>
 
-          <div class="product">
-            <div class="main-img">
-                <img src="../Images/Audífonos.png" class="pro-img" alt="Audífonos">
-            </div>
-            <div class="thumb-img">
-              <div class="box" onclick="changeImage(this)">
-                <img src="../Images/Audífonos.png" alt="thumb">
-              </div>
-              <div class="box" onclick="changeImage(this)">
-                <img src="../Images/DAC.png" alt="thumb">
-              </div>
-              <div class="box" onclick="changeImage(this)">
-                <img src="../Images/FLAC.png" alt="thumb">
-              </div>
-            </div>
-            <div class="info">
-              <h4>
-                <p>
-                  Hay una gran variedad de productos que pueden reproducir audio Hi- Res. Todo depende de que tan grande o pequeño quieras que el sistema sea, que tanto es tu presupiuesto, y que método es el que más usaras para escuchar tus temas musicales. 
-                  <br>
-                  Sin embargo nunca es facil adrentarse a esto, hoy en día existen una vasta cantidad de ecosistemas digitales y de streaming que soportan el Hi - Res, y específicamente, plataformas como el Google Chromecast.
-                  <br>
-                  <br>
-                  En estos días no tienes que abandonar completamente tu colección de vinilos para escuchar música en Hi - Res; Los tocadiscos como el Sony PS-HX500 le permiten digitalizar su colección de vinilos copiando sus pistas de grabación en archivos de audio de alta resolución.
-                  <br>
-                  <br>
-                  Para poder disfrutar de este maravilloso formato primero deben tener un equipo que pueda reproducir la señal a la perfección. Segundo, poseer parlantes que sean de muy buena calidad, para que no tengan distorsión a la hora de subir el volumen. En caso de que quieran escuchar su música por la calle, necesitan audífonos pro con mucho rango dinámico, y si se puede, que cancelen el sonido externo.
-                  <br>
-                  Para poder escuchar este formato de música, esencialmente necesitaremos tres cosas: Audífonos (Hi-Fi), un reproductor y un archivo Hi - Res.
-                  <br>
-                  <br>
-                  Si ya cuentas con lo necesario para poder escuchar este formato, a continuación dejo dos archivos de audio para que puedas escuchar la diferencia, siendo el de sporify un mp3 común y el otro siendo un archvio Flac (No Hi - Res)
-                </p>
-              </h4>
-            </div>
-            <div class="musica">
-            <iframe id="spotify" src="https://open.spotify.com/embed/track/4xBBNJ8spMyuJynOQxJf7e" width="305" height="467" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <div id="flac">
-                <img src="../Images/Like Flames flac cover.png" alt="FLAC"> 
-                <br> 
-                <audio controls>
-                <source src="../Audio/01 MindaRyn - Like Flames.flac" type="audio/FLAC">
-                </audio>
-            </div>
-            </div>
-          </div>
+  <div class="product">
+    <div class="main-img">
+      <img src="../Images/Audífonos.png" class="pro-img" alt="Audífonos">
+    </div>
+    <div class="thumb-img">
+      <div class="box" onclick="changeImage(this)">
+        <img src="../Images/Audífonos.png" alt="thumb">
+      </div>
+      <div class="box" onclick="changeImage(this)">
+        <img src="../Images/DAC.png" alt="thumb">
+      </div>
+      <div class="box" onclick="changeImage(this)">
+        <img src="../Images/FLAC.png" alt="thumb">
+      </div>
+    </div>
+    <div class="info">
+      <h4>
+        <p>
+          Hay una gran variedad de productos que pueden reproducir audio Hi- Res. Todo depende de que tan grande o
+          pequeño quieras que el sistema sea, que tanto es tu presupiuesto, y que método es el que más usaras para
+          escuchar tus temas musicales.
+          <br>
+          Sin embargo nunca es facil adrentarse a esto, hoy en día existen una vasta cantidad de ecosistemas digitales y
+          de streaming que soportan el Hi - Res, y específicamente, plataformas como el Google Chromecast.
+          <br>
+          <br>
+          En estos días no tienes que abandonar completamente tu colección de vinilos para escuchar música en Hi - Res;
+          Los tocadiscos como el Sony PS-HX500 le permiten digitalizar su colección de vinilos copiando sus pistas de
+          grabación en archivos de audio de alta resolución.
+          <br>
+          <br>
+          Para poder disfrutar de este maravilloso formato primero deben tener un equipo que pueda reproducir la señal a
+          la perfección. Segundo, poseer parlantes que sean de muy buena calidad, para que no tengan distorsión a la
+          hora de subir el volumen. En caso de que quieran escuchar su música por la calle, necesitan audífonos pro con
+          mucho rango dinámico, y si se puede, que cancelen el sonido externo.
+          <br>
+          Para poder escuchar este formato de música, esencialmente necesitaremos tres cosas: Audífonos (Hi-Fi), un
+          reproductor y un archivo Hi - Res.
+          <br>
+          <br>
+          Si ya cuentas con lo necesario para poder escuchar este formato, a continuación dejo dos archivos de audio
+          para que puedas escuchar la diferencia, siendo el de sporify un mp3 común y el otro siendo un archvio Flac (No
+          Hi - Res)
+        </p>
+      </h4>
+    </div>
+    <div class="musica">
+      <iframe id="spotify" src="https://open.spotify.com/embed/track/4xBBNJ8spMyuJynOQxJf7e" width="305" height="467"
+        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <div id="flac">
+        <img src="../Images/Like Flames flac cover.png" alt="FLAC">
+        <br>
+        <audio controls>
+          <source src="../Audio/01 MindaRyn - Like Flames.flac" type="audio/FLAC">
+        </audio>
+      </div>
+    </div>
+  </div>
 
-         
 
-          <footer style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-            <p>Copyright &copy;
-              <script>document.write(new Date().getFullYear())</script>, FutureEd
-            </p>
-          </footer>
-          <script>
-            const thumbs=document.querySelector(".thumb-img").children;
 
-            function changeImage(event){
-              document.querySelector(".pro-img").src=event.children[0].src
+  <footer style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    <p>Copyright &copy;
+      <script>document.write(new Date().getFullYear())</script>, FutureEd
+    </p>
+  </footer>
+  <script>
+    const thumbs = document.querySelector(".thumb-img").children;
 
-              for(let i=0; i<thumbs.length;i++){
-                thumbs[i].classList.remove("active");
-              }
-              event.classList.add("active");
-            }
+    function changeImage(event) {
+      document.querySelector(".pro-img").src = event.children[0].src
 
-            const showAlert = () =>{
-            alert ("Página sin fines de lucro creada como proyecto web para el curso de Principios de programación web")
-            }
-          </script>
+      for (let i = 0; i < thumbs.length; i++) {
+        thumbs[i].classList.remove("active");
+      }
+      event.classList.add("active");
+    }
+
+    const showAlert = () => {
+      alert("Página sin fines de lucro creada como proyecto web para el curso de Principios de programación web")
+    }
+  </script>
 </body>
+
 </html>
