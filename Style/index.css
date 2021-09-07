@@ -83,26 +83,34 @@ main{
 }
 
 .izq{
-  margin-left: 50px;
-  margin-top: 25px;
+  
+  
+  display: inline-block;
 }
 
 .primal{
 background-color: white;
 border-radius: 10px;
 opacity: 0.8;
-height: 320px;
-width: 1100px;
+height: 100%;
+width: 90%;
+margin-left: 5%;
+margin-top: 2.5%;
+margin-right: -240vh;
 }
 
 h4{
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
   text-align: justify;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Playfair Display', serif;
-  height: 10px;
-  width: 1100px;
+ 
+  
   color: black;
+}
+
+.gifu{
+  text-align: center;
 }
 
 #gif{
@@ -111,17 +119,22 @@ h4{
   margin-top: 5px;
   border-radius: 5%;
   object-fit: contain;
+  text-align: center center center;
+  
 }
 
-.der{
-  float: right;
+
+
+.twitter-timeline{
+    
 }
 
 .latest_post{
-  padding-left: 50px;
-  padding-top: 40px;
-  
 
+  margin-left: 5%;
+  margin-top: 2.5%;
+  
+  /*Una última duda, cuando trabajamos js es más practico escribirlo dentro del html o desde otro archivo con extension .js*/
 }
 
 footer{
